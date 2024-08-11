@@ -44,16 +44,14 @@ header {
     margin: 0 auto;
 }
 
-/* Ajuste para .nav_lista para que esté en fila siempre */
 .nav_lista {
     display: flex;
     flex-direction: row;
     list-style: none;
-    gap: 1rem; /* Espacio entre los elementos */
+    gap: 1rem; 
 }
 
 .nav_item {
-    /* Asegura que los elementos de la lista sean flexibles y en fila */
     display: flex;
     align-items: center;
 }
